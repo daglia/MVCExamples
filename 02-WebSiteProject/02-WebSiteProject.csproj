@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{470906E6-5D5D-4AA9-BE82-29220A908F96}</ProjectGuid>
+    <ProjectGuid>{7104DA09-C68B-484F-BE3E-137C84E2A020}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01_Layout</RootNamespace>
-    <AssemblyName>01-Layout</AssemblyName>
+    <RootNamespace>_02_WebSiteProject</RootNamespace>
+    <AssemblyName>02-WebSiteProject</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -88,23 +88,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Site.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
-    <Content Include="Views\Home\Index2.cshtml" />
+    <Content Include="WebSite\about.html" />
+    <Content Include="WebSite\contact.html" />
+    <Content Include="css\style.css" />
+    <Content Include="images\bg-adbox.png" />
+    <Content Include="images\bg-footer.png" />
+    <Content Include="images\bg-footnote.jpg" />
+    <Content Include="images\bg-header.jpg" />
+    <Content Include="images\border.png" />
+    <Content Include="images\bride-sideview.jpg" />
+    <Content Include="images\bride.jpg" />
+    <Content Include="images\children.jpg" />
+    <Content Include="images\divorce.jpg" />
+    <Content Include="images\family-large.jpg" />
+    <Content Include="images\family-small.jpg" />
+    <Content Include="images\family.png" />
+    <Content Include="images\frames.png" />
+    <Content Include="images\handshake.jpg" />
+    <Content Include="images\happy.jpg" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\interface.png" />
+    <Content Include="images\laughing.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\meeting.jpg" />
+    <Content Include="images\prenuptial.jpg" />
+    <Content Include="images\smile.jpg" />
+    <Content Include="images\thumb-up.jpg" />
+    <Content Include="images\thumbnail-focus.jpg" />
+    <Content Include="images\thumbnail-frontview.jpg" />
+    <Content Include="images\thumbnail-happy.jpg" />
+    <Content Include="images\thumbnail-sideview.jpg" />
+    <Content Include="images\thumbnail-smile.jpg" />
+    <Content Include="WebSite\index.html" />
+    <Content Include="WebSite\lawyers.html" />
+    <Content Include="WebSite\news.html" />
+    <Content Include="WebSite\post.html" />
+    <Content Include="WebSite\practices.html" />
+    <Content Include="WebSite\singlepost.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DB\IndexDB.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -112,20 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
     <Content Include="Views\_LayoutPage1.cshtml" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Home\Hakkimizda.cshtml" />
-    <Content Include="Views\Home\Iletisim.cshtml" />
-    <Content Include="Views\Shared\_partialAltBilgi.cshtml" />
-    <Content Include="Views\Home\_partialVitrin.cshtml" />
-    <Content Include="Views\Home\_partialUrunListesi.cshtml" />
+    <Content Include="Views\Shared\_partialWhyChooseUs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -150,9 +167,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52803</DevelopmentServerPort>
+          <DevelopmentServerPort>54735</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52803/</IISUrl>
+          <IISUrl>http://localhost:54735/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

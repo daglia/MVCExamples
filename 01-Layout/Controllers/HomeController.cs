@@ -28,5 +28,15 @@ namespace _01_Layout.Controllers
         {
             return View();
         }
+
+        public PartialViewResult UrunGetir()
+        {
+            List<string> urunListesi = new List<string>();
+            urunListesi.Add("Defter");
+            urunListesi.Add("Silgi");
+            urunListesi.Add("Kalem");
+
+            return PartialView("~/Views/Home/_partialUrunListesi.cshtml", urunListesi);
+        }
     }
 }

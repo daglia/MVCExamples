@@ -23,6 +23,9 @@
             background-color: lightgoldenrodyellow;
             color: deepskyblue;
         }
+        li:hover {
+            background-color:orchid;
+        }
     </style>
     
     @RenderSection("style",false)
@@ -35,6 +38,7 @@
         BANNER
     </div>
     <div>
+        @Html.Partial("~/Views/Home/_partialVitrin.cshtml")
         @RenderBody()
     </div>
     <div style="width: 100%; height: 100px; background-color: tomato">
