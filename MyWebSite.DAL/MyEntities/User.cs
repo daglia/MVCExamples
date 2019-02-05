@@ -18,8 +18,8 @@ namespace MyWebSite.DAL.MyEntities
 
     public enum Gender
     {
-        Man,
-        Woman,
+        Male,
+        Female,
         Other
     }
 }

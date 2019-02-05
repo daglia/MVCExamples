@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using MyWebSite.DAL.MyEntities;
 
 namespace MyWebSite.Models
 {
@@ -24,12 +25,5 @@ namespace MyWebSite.Models
 
         [Required(ErrorMessage = "Lütfen cinsiyet alanını boş geçmeyiniz.")]
         public Gender Gender { get; set; }
-    }
-
-    public enum Gender
-    {
-        Man,
-        Woman,
-        Other
     }
 }
